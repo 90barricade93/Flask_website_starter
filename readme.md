@@ -8,7 +8,7 @@ This repository contains the necessary files to build a Flask website with a hom
 
 To get started, clone this repository to your local machine:
 
-``` git clone '' ```
+``` git clone https://github.com/90barricade93/Flask_website_starter.git ```
 
 Then, create a virtual environment in the root directory of the project:
 
