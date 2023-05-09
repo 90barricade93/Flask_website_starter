@@ -2,29 +2,27 @@
 
 This repository contains the necessary files to build a Flask website with a home and about page.
 
-## Setup
+## The purpose of this repository is to quickly create a Flask website with a home and about page to get you started on your project.
 
-To get started, you'll need to have Python and Flask installed on your machine. You can install Flask using pip:
+## Getting Started
 
-```
-source env/bin/activate
-```
+To get started, clone this repository to your local machine:
 
-```
-pip install --upgrade pip
-```
+``` git clone '' ```
 
-```
-pip install Flask
-```
+Then, create a virtual environment in the root directory of the project:
+
+``` python3 -m venv env ```
+
+Activate the virtual environment:
+
+``` source env/bin/activate ```
+
+Install the required packages:
+
+``` pip install -r requirements.txt ```
 
 ## Running the Website
-
-To run the website, activate your virtual environment by running:
-
-```
-env/bin/activate
-```
 
 Then run the following command:
 
