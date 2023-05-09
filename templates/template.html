@@ -13,14 +13,17 @@
         <h1 class="logo">First Web App</h1>
         <strong><nav>
           <ul class="menu">
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('home') }}">Home</a></li> <!-- url_for is a function that takes the name of the function as an argument and returns the URL as a string -->
+            <li><a href="{{ url_for('about') }}">About</a></li>  <!-- url_for is a function that takes the name of the function as an argument and returns the URL as a string -->
           </ul>
         </nav></strong>
       </div>
     </header>
     
-{% block content %}
+{% block content %} <!-- content is a block that will be replaced by the content of the child template -->
+{% endblock %}
+
+{% block footer %} <!-- footer is a block that will be replaced by the content of the child template -->
 {% endblock %}
 
  </body>
